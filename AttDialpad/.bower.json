@@ -1,0 +1,14 @@
+{
+  "name": "AttDialpad",
+  "homepage": "https://github.com/att-innovate/dialpad.js",
+  "_release": "master",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "399eeb67a138e7881e77558e6ffac3217c5580aa"
+  },
+  "_source": "git://github.com/att-innovate/dialpad.js.git",
+  "_target": "*",
+  "_originalSource": "AttDialpad",
+  "_direct": true
+}
