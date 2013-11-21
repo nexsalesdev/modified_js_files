@@ -10,21 +10,21 @@
     width: 100%;
     height: 15%;
     text-align: center;
-    text-shadow: 1px 1px 0 #555555;
+    text-shadow: 1px 1px 0 #0074b0;
     font-size: 1em;
     color: white;
     outline: 0;
     border: 0;
-    background: #959595;
-    background: -moz-linear-gradient(top, #959595 50%, #767676 50%, #565656 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #959595), color-stop(50%, #767676), color-stop(100%, #565656));
-    background: -webkit-linear-gradient(top, #959595 50%, #767676 50%, #565656 100%);
-    background: -o-linear-gradient(top, #959595 50%, #767676 50%, #565656 100%);
-    background: -ms-linear-gradient(top, #959595 50%, #767676 50%, #565656 100%);
-    background: linear-gradient(top, #959595 50%, #767676 50%, #565656 100%);
+    background: #0074b0;
+    background: -moz-linear-gradient(top, #0074b0 50%, #0074b0 50%, #0074b0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #0074b0), color-stop(50%, #0074b0), color-stop(100%, #0074b0));
+    background: -webkit-linear-gradient(top, #0074b0 50%, #0074b0 50%, #0074b0 100%);
+    background: -o-linear-gradient(top, #0074b0 50%, #0074b0 50%, #0074b0 100%);
+    background: -ms-linear-gradient(top, #0074b0 50%, #0074b0 50%, #0074b0 100%);
+    background: linear-gradient(top, #0074b0 50%, #0074b0 50%, #0074b0 100%);
     padding: 0;
     margin: 0;
-    border-top: 1px solid #777777; }
+    border-top: 1px solid #0074b0; }
     .dialerwrapper .numberEntry:focus {
       outline: 0; }
   .dialerwrapper #dialpad {
@@ -45,21 +45,22 @@
       vertical-align: top;
       width: 33.3%;
       height: 100%;
-      background: #eeeeee;
+      background: #ebf8ff;
       font-size: 16px;
       text-align: center;
       outline: 0;
       border-top: 1px solid white;
       border-right: 1px solid white;
-      border-bottom: 1px solid #c7c7c7;
-      border-left: 1px solid #c7c7c7;
+      border-bottom: 1px solid white;
+      border-left: 1px solid white;
       border-radius: 0;
       margin: 0;
       padding: 0;
-      color: #555555;
+      color: #0074b0;
       vertical-align: middle; }
       .dialerwrapper #dialpad button:hover {
-        background-color: #cecece; }
+        background-color: #0074b0; 
+        color:#fff;}
       .dialerwrapper #dialpad button p {
         width: 100%;
         display: inline-table;
