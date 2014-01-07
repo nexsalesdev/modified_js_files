@@ -3,7 +3,7 @@
 }
 
 .dialerwrapper {
-  width: 184px;
+  width: 232px;
   height: 195px;
   background-color: #cccccc; }
   .dialerwrapper .numberEntry {
@@ -100,7 +100,9 @@
 #screen {
   overflow: hidden;
   padding: 15px 15px 0 15px;
-  z-index: 99; }
+  z-index: 99; 
+  height: 314px;
+}
   #screen header {
     background-color: #555555; }
   #screen header, #screen footer {
@@ -108,49 +110,7 @@
     width: 100%;
     padding: 10px 0;
     display: block; }
-    #screen header nav, #screen footer nav {
-      width: 100%;
-      display: table;
-      margin: 0 auto;
-      border: 1px solid #222222;
-      border-radius: 10px; }
-      #screen header nav a, #screen footer nav a {
-        display: table-cell;
-        width: 50%;
-        color: #eeeeee;
-        font-weight: 900;
-        text-decoration: none;
-        text-align: center;
-        text-shadow: 1px 1px 0 #222222;
-        letter-spacing: 0.3px;
-        padding: 10px 0;
-        border-left: 1px solid #222222;
-        border-right: 1px solid #777777;
-        background: #888888;
-        background: -moz-linear-gradient(top, #888888 0%, #555555 100%) repeat-x, #888888;
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #888888) repeat-x, color-stop(100%, #555555)), #888888;
-        background: -webkit-linear-gradient(top, #888888 0%, #555555 100%) repeat-x, #888888;
-        background: -o-linear-gradient(top, #888888 0%, #555555 100%) repeat-x, #888888;
-        background: -ms-linear-gradient(top, #888888 0%, #555555 100%) repeat-x, #888888;
-        background: linear-gradient(top, #888888 0%, #555555 100%) repeat-x, #888888;
-        -moz-transition: background 1s linear;
-        -webkit-transition: all 0.3s linear 0;
-        -moz-transition-property: all;
-        -moz-transition-duration: 1s;
-        -moz-transition-timing-function: linear;
-        -moz-transition-delay: linear; }
-        #screen header nav a:first-child, #screen footer nav a:first-child {
-          border-left: 0;
-          border-top-left-radius: 10px;
-          border-bottom-left-radius: 10px; }
-        #screen header nav a:last-child, #screen footer nav a:last-child {
-          margin: 0;
-          border-right: 0;
-          border-top-right-radius: 10px;
-          border-bottom-right-radius: 10px; }
-        #screen header nav a:hover, #screen footer nav a:hover {
-          background-position: 0 15px;
-          cursor: pointer; }
+    
 
 #login #screen {
   padding: 0;
