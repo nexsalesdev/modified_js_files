@@ -1,0 +1,19 @@
+{
+  "name": "modified_js_files",
+  "version": "0.0.0",
+  "description": "External libraries customized as per the needs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nexsalesdev/modified_js_files.git"
+  },
+  "author": "voicereach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexsalesdev/modified_js_files/issues"
+  },
+  "homepage": "https://github.com/nexsalesdev/modified_js_files"
+}
