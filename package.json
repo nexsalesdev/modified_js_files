@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/nexsalesdev/modified_js_files/issues"
   },
-  "homepage": "https://github.com/nexsalesdev/modified_js_files"
+  "homepage": "https://github.com/nexsalesdev/modified_js_files",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-bump": "~0.8.0"
+  }
 }
