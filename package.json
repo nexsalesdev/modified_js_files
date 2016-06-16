@@ -1,6 +1,6 @@
 {
   "name": "modified_js_files",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "External libraries customized as per the needs",
   "main": "index.js",
   "scripts": {
